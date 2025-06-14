@@ -1,7 +1,7 @@
-const dummyUsers = {
-  mohak: { username: "mohak", role: "user" },
-  soham: { username: "soham", role: "editor" },
-  atul: { username: "admin", role: "admin" },
-};
+const dummyUsers = [
+  { username: "mohak", role: "user" },
+  { username: "soham", role: "editor" },
+  { username: "admin", role: "admin" },
+]
 
 export default dummyUsers;
